@@ -1,0 +1,40 @@
+.Component {
+    margin: 2rem;
+    border: 2rem;
+    border-width: 10rem;
+    background-color:#e6e6e6;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SubHeader {
+    background-color: rgb(5, 199, 199);
+    height: 10rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Heading {
+    margin: 1rem;
+    color: rgb(5, 56, 59);
+}
+.Input {
+    margin: 2%;
+    padding: 0.2rem;
+}
+
+.Button {
+    margin: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.4rem;
+    width: 7rem;
+}
+
+.Register {
+    margin: 2%;
+}

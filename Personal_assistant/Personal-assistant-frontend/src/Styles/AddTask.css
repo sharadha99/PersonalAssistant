@@ -1,0 +1,54 @@
+.Component {
+    margin: 2rem;
+    border: 2rem;
+    border-width: 10rem;
+    background-color: #e6e6e6;
+    position: absolute;
+    left: 27%;
+    top: 15%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.SubHeader {
+    background-color: rgb(5, 199, 199);
+    height: 10rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Heading {
+    margin: 1rem;
+    color: rgb(5, 56, 59);
+}
+.Input {
+    margin: 0.5rem;
+    width: 9rem;
+}
+
+.DetailsInput {
+    margin: 0.5rem;
+    width: 20rem;
+    height: 5rem;
+}
+
+.Label {
+    margin: 0.5rem;
+}
+
+.Button {
+    margin: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.4rem;
+    width: 7rem;
+}
+
+.Field {
+    display: flex;
+    flex-direction: row;
+}
+
+.Error {
+    color: red;
+}
