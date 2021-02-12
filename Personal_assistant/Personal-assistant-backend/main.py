@@ -2,8 +2,6 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from user import USER
 from tasks import TASKS
-from payment import PAYMENT
-from rec_task import RECIEPT_TASK
 from task_use import TASK_USER
 app = Flask(__name__)
 app.config.update(
