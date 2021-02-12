@@ -15,7 +15,7 @@ class TASKS:
         self.db_connect()
         tasks = []
         for tid in t:
-            self.cur.execute("select * from event where t_id = {0} ".format(tid))
+            self.cur.execute("select * from task where t_id = {0} ".format(tid))
             tasks.append(self.cur.fetchall()[0])
         task_objects=[]
         if len(tasks)==0:
