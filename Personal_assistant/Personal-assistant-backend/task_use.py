@@ -11,7 +11,7 @@ class TASK_USER:
         self.conn = MySQLdb.connect(user=self.user, password=self.pswd,host=self.host,database=self.db)
         self.cur = self.conn.cursor()
         
-    def getevents(self,uid):
+    def gettasks(self,uid):
         self.db_connect()
         
         self.cur.execute("select * from task_user where uid = {0}".format(uid))
